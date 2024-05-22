@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="encabezado-principal" id="encabezado-principal">
+        <h1 class="titulo-encabezado" id="titulo-encabezado"> &#128299;&#128299;&#128299; Alura-Geek &#128299;&#128299;&#128299; </h1>
+    </header>
+
+    <main class="container-principal" id="container-principal">
+        <!-- Seccion de productos -->
+        <section class="container-card-section" id="product-section">
+
+            <h1 class="title-card-section">MIS PRODUCTOS: </h1>
+
+            <ul class="ul-card" data-ul>
+
+                <li class="card">
+                    <img class="card-image" src="./img/funko-didi.webp" class="delete-button" alt="image">
+                    <h3 class="card-title">FUNKO POP DIDI</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img class="card-image" src="./img/funko-marvel.webp" alt="image">
+                    <h3 class="card-title">FUNKO POP MARVEL</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img class="card-image" src="./img/Funko-matrix.webp" class="delete-button" alt="image">
+                    <h3 class="card-title">FUNKO POP MATRIX</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img class="card-image" src="./img/joker.webp" alt="image">
+                    <h3 class="card-title">FUNKO POP JOKER</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+
+                <li class="card">
+                <img class="card-image" src="./img/logan.webp" alt="image">
+                <h3 class="card-title">FUNKO POP LOGAN</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card-image" src="./img/michael.webp" alt="image">
+                    <h3 class="card-title">FUNKO POP MICHAEL JACKSON</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+
+
+                <li class="card">
+                    <img class="card-image" src="./img/tony.webp" alt="image">
+                    <h3 class="card-title">FUNKO POP IRON MAN</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img class="card-image" src="./img/wade.webp" alt="image">
+                    <h3 class="card-title">FUNKO POP DEADPOOL</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img class="card-image" src="./img/barry.png" alt="image">
+                    <h3 class="card-title">FUNKO POP FLASH</h3>
+                    <div class="card-price" id="card-price">
+                        <h3 class="price-items">$ 60,00</h3>
+                        <img src="./img/vector.png" class="delete-button" alt="delete-button">
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+        <!-- Seccion para agregar productos -->
+        <section class="container-card-section" id="add-card-section">
+
+            <form class="container__formulario" data-formulario>
+                <h2 class="title-card-section" id="formulario__titulo">AGREGAR PRODUCTO</h3>
+                    <div class="formulario__campo">
+                        
+                        <input name="product-name" class="campo-form" required
+                            placeholder="  nombre..." id='name' data-name/>
+                    </div>
+    
+    
+                    <div class="formulario__campo">
+                        
+                        <input name="price" class="campo-form" required placeholder="  precio..."
+                            id='price' data-price/>
+                    </div>
+    
+                    <div class="formulario__campo">
+                        
+                        <input name="imagen" class="campo-form" required placeholder="  imagen..."
+                            id='imagen-form' data-imagen/>
+                    </div>
+                    
+                    <button class="botones-formulario" id="boton-enviar" type="submit">
+                        Enviar
+                    </button>
+                    <button class="botones-formulario" id="boton-limpiar" type="reset"> 
+                        Limpiar
+                    </button>
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+
+
+
+
+     <footer class="pie-de-pagina" id="pie-de-pagina">
+        <h1 class="titulo-footer" id="titulo-footer">&#128299;&#128299;&#128299; Alura-Geek &#128299;&#128299;&#128299;</h1>
+        <p class="text-footer" id="text-footer-1">DESARROLLADO POR CES-DEV</p>
+        <p class="text-footer" id="text-footer-2">ALURA LATAM 2024</p>
+    </footer> 
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
